@@ -1,0 +1,39 @@
+#timerOnly{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin:10% auto;
+}
+
+.play , .pause, .reset{
+ font-size: 30px;
+ color: red;
+}
+
+.action button {
+  border: none;
+  outline: none;
+  background: white;
+}
+
+#header{
+  width: 100%;
+  height: 40px;
+  background: green;
+}
+#mainDisplay{
+  display: flex;
+  flex: 1;
+  width: 300px;
+  height: 40px;
+  justify-content: space-between;
+
+}
+.keypad{
+  text-align: center;
+  margin-left: 35%;
+  align-items: center;
+}

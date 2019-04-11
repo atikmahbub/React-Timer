@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+*{
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.display{
+	display: flex;
+	width: 400px;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 2px red;
+
+}
+
+
+
+.keyPad button{
+ 
+  width: 40px;
+  outline: none;
+  border: none;
+  color: #fcb045;
+  font-size: 18px;
+  height: 36px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+
+.keyPad button:active,
+#keyPad button:hover {
+	
+	background: #093b56;
+}
+
